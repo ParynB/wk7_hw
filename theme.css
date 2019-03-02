@@ -224,7 +224,12 @@ img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 25rem
+  height: 25rem;
+}
+
+.box-bg{
+  background: white;
+  padding: 1rem 1rem 5rem 1rem;
 }
 
 @media only screen and (max-width: 720px) and (orientation: landscape) {
@@ -232,6 +237,11 @@ img {
     padding: 1rem 0.5rem 1rem 0.5rem;
     background-color: black;
     color: white;
+      }
+
+  .box-bg{
+      background: black;
+      padding: 1rem 1rem 5rem 1rem;
   }
   }
 
